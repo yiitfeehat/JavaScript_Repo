@@ -18,7 +18,7 @@ const selamla = () => {
 
 selamla();
 /* -------------------------------------------------------------------------- */
-//! Tek satırlık bir kod olacaksa {} ve return gerekmez
+//! Tek satırlık bir kod olacaksa {} ve return gerekmez.
 
 const naber = () => console.log("Selam naber");
 
