@@ -10,7 +10,7 @@ console.log("****** 3- ARROW FUNCTIONS ******");
 
 // //!Funct expression ve arrow func yontemlerinde
 // //! Once fonks tanimlanmalidir sonra cagrilmalidir. Hoisting desteklenmez
-// //! Aksi takdirde hata alırsiniz.
+// //! Aksi takdirde hata alırsiniz. 
 
 const selamla = () => {
   console.log("Arrow FUNctiondan Merhaba");
