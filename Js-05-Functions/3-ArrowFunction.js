@@ -10,7 +10,7 @@ console.log("****** 3- ARROW FUNCTIONS ******");
 
 // //!Funct expression ve arrow func yontemlerinde
 // //! Once fonks tanimlanmalidir sonra cagrilmalidir. Hoisting desteklenmez
-// //! Aksi takdirde hata alırsiniz. 
+// //! Aksi takdirde hata alırsiniz.
 
 const selamla = () => {
   console.log("Arrow FUNctiondan Merhaba");
@@ -18,7 +18,7 @@ const selamla = () => {
 
 selamla();
 /* -------------------------------------------------------------------------- */
-//! Tek satırlık bir kod olacaksa {} ve return gerekmez.
+//! Tek satırlık bir kod olacaksa {} ve return gerekmez
 
 const naber = () => console.log("Selam naber");
 
@@ -63,28 +63,30 @@ const hacim1 = (r, h) => {
 
 console.log(Math.floor(hacim(34, 3)));
 
-const asal = (num) => {
-  if (num < 2) {
-    console.log("Bu değere kadar asal sayı yok");
-    return;
-  }
-
-  for (let i = 2; i < num; i++) {
-    if (i === 2) {
-      console.log(i);
-    } else {
-      let asal = true;
-      // asal mı kontrolü
-      for (let j = 2; j < i; j++) {
-        if (i % j === 0) {
-          asal = false;
-          break;
-        }
-      }
-
-      asal ? console.log(i) : "";
+const asal=(num)=>{
+    if (num<2){
+        console.log("Bu değere kadar asal sayı yok")
+        return
     }
-  }
-};
 
-asal(4);
+    for (let i=2; i<num; i++){
+        if (i===2){
+            console.log(i)
+        }
+        else{
+            let asal=true;
+            // asal mı kontrolü
+            for (let j=2; j<i;j++){
+                if (i % j===0 ){
+                    asal=false;
+                    break;
+                }
+            }
+
+            asal ? console.log(i) : "";
+
+        }
+    }
+}
+
+asal(4)

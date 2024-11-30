@@ -14,35 +14,34 @@
 
 //? Hoisting sadece function Declaration 'da olduğundan önceden fonksiyonu tanımlayıp sonra çağırmamız gerekiyor.
 
-const adYazdir=function(){
-    console.log("Merhaba");
-}
+const adYazdir = function () {
+  console.log("Merhaba");
+};
 
-adYazdir()
+adYazdir();
 
 console.clear();
 
 //** parametreli function exp. */
-const isEvenOdd=function(a){
+const isEvenOdd = function (a) {
+  let result = a % 2 === 0 ? "Even" : "Odd";
 
-    let result=a%2===0 ? "Even" : "Odd";
-    
-    if (a<10){
-        return a
-    } else {
-        return result
-    }
-}
+  if (a < 10) {
+    return a;
+  } else {
+    return result;
+  }
+};
 
-let sayi=7
-console.log(isEvenOdd(sayi)) 
+let sayi = 7;
+console.log(isEvenOdd(sayi));
 
 /* -------------------------------------------------------------------------- */
 //** Verilen 3 sayıdan en büyüğünü bulun (Math.max kullanmadan) */
 
-let a=34
-let b=67
-let c=1
+let a = 34;
+let b = 67;
+let c = 1;
 
 // const enb=function(){
 //     if ((a>=b) && (a>=c)){
@@ -62,14 +61,14 @@ let c=1
 /* -------------------------------------------------------------------------- */
 // 2.yöntem
 
-const enb=function(){
-    let biggest=a;
-    if (b>biggest){
-        biggest=b;
-    } 
-    if (c>biggest){
-        biggest=c;
-    }
-    console.log(biggest);
-}
-enb()
+const enb = function () {
+  let biggest = a;
+  if (b > biggest) {
+    biggest = b;
+  }
+  if (c > biggest) {
+    biggest = c;
+  }
+  console.log(biggest);
+};
+enb();
