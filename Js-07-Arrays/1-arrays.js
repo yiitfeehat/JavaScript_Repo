@@ -28,9 +28,9 @@ const names = ["Ahmet", "Berk", 34, true, null, undefined, [1, 2], NaN, school];
 
 console.log(names);
 console.log(names[2]);
-console.log(`Sonuncu eleman:  : ${names[names.length-1]}`);
+console.log(`Sonuncu eleman:  : ${names[names.length - 1]}`);
 
-names[0]= names[0].toUpperCase()
+names[0] = names[0].toUpperCase()
 console.log(names[0]);
 console.log(names[1].toUpperCase());
 console.log(names[1]);
@@ -40,7 +40,7 @@ const newArray = new Array("Js", "HTML", "React")
 console.log(newArray);
 
 //! 3. Yöntem (array.of)
-const sayilar = Array.of(4,2,"sega")
+const sayilar = Array.of(4, 2, "sega")
 console.log(sayilar);
 // console.clear()
 
@@ -48,7 +48,7 @@ console.log(sayilar);
 //?  DIZIYI DEGISTIREN (MUTATOR) METOTLAR
 //? ===========================================================
 
-const cars=["BMW","Audi","Mercedes","Scoda","Porche","Tesla"]
+const cars = ["BMW", "Audi", "Mercedes", "Scoda", "Porche", "Tesla"]
 console.log(cars)
 console.log(cars[4])
 
@@ -57,7 +57,7 @@ console.log(cars[4])
 /* -------------------------------------------------------------------------- */
 
 //* push() dizinin sonuna eleman ekler. ( Çok kullanılır.)
- //* Yeni eleman eklenmiş halini döndürür. !! 
+//* Yeni eleman eklenmiş halini döndürür. !! 
 //* Yeni eklenmiş eleman ile birlikte eleman sayısını döndürür.
 
 const newCars = cars.push("Jeep")
@@ -80,7 +80,7 @@ console.log(deletedCar);
 
 //* unshift dizinin 0. indeksine eleman ekler (en başa) ve diziin son eleman sayisini dondurur.
 
-const ElemanEkle=cars.unshift("Tofaş")
+const ElemanEkle = cars.unshift("Tofaş")
 console.log(cars);
 console.log(ElemanEkle);
 
@@ -91,7 +91,7 @@ console.log(ElemanEkle);
 //* shift, dizinin 0. indeks elemanini siler ve silinen elemanı dondurur.
 
 console.clear();
-const elemanSilinen=cars.shift()
+const elemanSilinen = cars.shift()
 console.log(cars);
 console.log(elemanSilinen);
 /* -------------------------------------------------------------------------- */
@@ -103,16 +103,16 @@ console.log(elemanSilinen);
 //? 2. parametre: 0 ise araya ekleme, 1 ise uzerine yazma (yerine yazma)
 //? 3. parametre: yeni eklenecek veri
 
-cars.splice(2,0,"Serçe", "Seat", "Leon", "Bugatti")
+cars.splice(2, 0, "Serçe", "Seat", "Leon", "Bugatti")
 console.log(cars);
 
-cars.splice(5,1,"Togg")
+cars.splice(5, 1, "Togg")
 console.log(cars)
 
-cars.splice(3,1)
+cars.splice(3, 1)
 console.log(cars);
 
-cars.splice(3,0,"Fiat")
+cars.splice(3, 0, "Fiat")
 console.log(cars)
 
 // cars.splice(3)
@@ -143,13 +143,13 @@ console.log(cars)
 
 // Sort metodu sayılarıda stringmiş gibi bir sıralamaya sokar. Bu nedenle sayısal oalrak hatalı bir sıralama oluşur. 
 
-const numbers1=[3,556,243,133,6,78,98]
+const numbers1 = [3, 556, 243, 133, 6, 78, 98]
 // Bunu engellemek bir karşılaştırma algoritması ile çalıştırmak gerekir.
 console.log(numbers1)
 // Küçükten büyüğe sıralama
-numbers1.sort((a,b)=>a-b)
+numbers1.sort((a, b) => a - b)
 
 console.log(numbers1)
 //* Büyükten küçüğe sıralama
-numbers1.sort((a,b)=>b-a)
+numbers1.sort((a, b) => b - a)
 console.log(numbers1)
