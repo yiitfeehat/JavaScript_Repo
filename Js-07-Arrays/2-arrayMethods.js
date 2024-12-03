@@ -5,9 +5,9 @@
 /* -------------------------------------------------------------------------- */
 /*                                   length                                   */
 /* -------------------------------------------------------------------------- */
-const number = [3, 5, 2, "4", "bes", "dort", 3, 6, "bes", 5,56]
+const number = [3, 5, 2, "4", "bes", "dort", 3, 6, "bes", 5, 56]
 
-console.log( `Number Arrayı ${number.length} eleman sayısına sahiptir`)
+console.log(`Number Arrayı ${number.length} eleman sayısına sahiptir`)
 
 /* -------------------------------------------------------------------------- */
 //!                                  INCLUDES()                                */
@@ -34,9 +34,9 @@ console.log(number.indexOf("bes"));
 console.log(number.indexOf("yedi"));
 
 
-if (number.indexOf("bes")<0){
+if (number.indexOf("bes") < 0) {
     console.log("Bu öğe bulunamadı.");
-    
+
 } else {
     console.log(`Aradığınız öğenin indeks numarası ${number.indexOf("bes")}'tir.`);
 }
@@ -52,7 +52,7 @@ if (number.indexOf("bes")<0){
 
 //* Join bir işaret yada bilgi parametresi verilmezse default değer olarak array'deki değerlerin arasına , koyarak birleştirir.
 
-const statement=["oku","da","adam","ol"]
+const statement = ["oku", "da", "adam", "ol"]
 
 // ama kendimiz parantez içine hangi değeri koyarsak onu aralarına ekleyecektir.
 
@@ -70,5 +70,5 @@ console.log(statement);
 // end verilmezse sonuna kadar olanı alır.
 
 console.log(statement);
-console.log(statement.slice(0,3));
+console.log(statement.slice(0, 3));
 console.log(statement)
