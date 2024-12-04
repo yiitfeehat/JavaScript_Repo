@@ -8,8 +8,8 @@ console.log("**** LOOPS IN ARRAYS ***");
 const maaslar = [50000, 80000, 40000, 30000];
 sum = 0;
 
-for (let i = 0; i < maaslar.length; i++) {
-    sum += maaslar[i]
+for (let i = 0; i<maaslar.length; i++){
+    sum+= maaslar[i]
 }
 console.log(`toplam maaslar ${sum}`);
 
@@ -31,12 +31,12 @@ const notlar = [50, 45, 67, 75, 15];
 // for...in, bir nesnenin ( object ) ya da dizinin (array) özelliklerini veya indislerini döngüyle döner.
 // Bir string üzerinde çalıştığında, stringin her bir karakterinin indisini (0, 1, 2, ...)
 
-const ellidenKucukler = []
-const ellidenBuyukler = []
+const ellidenKucukler=[]
+const ellidenBuyukler=[]
 
-for (let i in notlar) {
+for (let i in notlar){
     console.log(notlar[i])
-    notlar[i] < 50 ? ellidenKucukler.push(notlar[i]) : ellidenBuyukler.push(notlar[i])
+    notlar[i]<50 ? ellidenKucukler.push(notlar[i]) : ellidenBuyukler.push(notlar[i])
 }
 console.log(ellidenBuyukler)
 console.log(ellidenKucukler)
@@ -44,12 +44,12 @@ console.clear()
 /* -------------------------------------------------------------------------- */
 const salaries = [50000, 35000, 120000, 44000];
 //? Maasların ortalamasını bulalım
-let toplam = 0;
-for (let i in salaries) {
+let toplam=0;
+for(let i in salaries){
     toplam += salaries[i]
 }
 console.log(toplam)
-const ortalama = toplam / salaries.length
+const ortalama=toplam/salaries.length
 console.log(ortalama)
 /* -------------------------------------------------------------------------- */
 //?-------------- FOR OF -------------------
@@ -57,12 +57,12 @@ console.log(ortalama)
 //! Bu dongude dizi icindeki veriye erisirken indisleme kullanmaya gerek yoktur.
 
 
-const sayilar = [67, 87, 23, 65, 87, 90]
-const buyuk = []
-const kucuk = []
+const sayilar=[67,87,23,65,87,90]
+const buyuk=[]
+const kucuk=[]
 
-for (let sayi of sayilar) {
-    sayi > 60 ? buyuk.push(sayi) : kucuk.push(sayi)
+for (let sayi of sayilar){
+    sayi>60 ? buyuk.push(sayi) :  kucuk.push(sayi)
 }
 console.log(kucuk)
 console.log(buyuk)
