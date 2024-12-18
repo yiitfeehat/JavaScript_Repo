@@ -11,7 +11,7 @@ const product = {
     type: "smart phone",
     price: 30000,
 };
- 
+
 const product1 = {
     id: "6789",
     brand: "Samsung",
