@@ -253,3 +253,70 @@ const cumle = "Uzun ince bir yoldayım";
 const cumleDizisi = [...cumle]
 console.log(cumleDizisi);
 
+// Ornek
+console.clear();
+const numbers = [1, 9, 3, 4];
+console.log(Math.max(...numbers));
+
+//? nested
+const sahislar = {
+    sahis1: {
+        name: "Can",
+        surname: "Canan",
+        dob: "1990",
+        job: "developer",
+        salary: "140000",
+        drivingLicense: true,
+    },
+    sahis2: {
+        name: "John",
+        surname: "Sweet",
+        dob: "1990",
+        job: "tester",
+        salary: "110000",
+        drivingLicense: false,
+    },
+    sahis3: {
+        name: "Steve",
+        surname: "Job",
+        dob: "2000",
+        job: "developer",
+        salary: "90000",
+        drivingLicense: true,
+    },
+};
+
+//? JavaScript'te nesneler default olarak iterable değildir.
+//? Ama for of ve for in döngüleri ile itere edilebilirler.
+
+//? Objelerin key ve valuelarını okumak için built in metodlar vardır.
+//? Bu metodlar aslında objelerin key ve/veya value'leri bir dizi olarak döndürür.
+
+//! FOR IN
+
+for (const s in sahislar) {
+    // console.log(sahislar[s]);
+    console.log(sahislar[s].salary);
+}
+
+console.log(sahislar["sahis1"]);
+
+//? Kullanışlı object metotları
+
+console.log(Object.keys(sahislar));
+console.log(Object.values(sahislar));
+console.log(Object.values(sahislar.sahis2));
+console.log(Object.entries(sahislar));
+console.log(Object.entries(sahislar.sahis1));
+
+//! FOR OF
+
+for (const x of Object.keys(sahislar)) {
+    console.log(sahislar[x].salary)
+}
+
+console.log("************************")
+for (const v of Object.values(sahislar)) {
+    console.log(v.name)
+}
+
