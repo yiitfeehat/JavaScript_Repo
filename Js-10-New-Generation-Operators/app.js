@@ -252,3 +252,4 @@ console.log(flatTasitlar);
 const cumle = "Uzun ince bir yoldayım";
 const cumleDizisi = [...cumle]
 console.log(cumleDizisi);
+
