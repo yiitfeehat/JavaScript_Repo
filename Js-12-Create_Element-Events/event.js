@@ -30,7 +30,7 @@ h2.onmouseout= () =>  {
 body.onload = function(){
     myInput.focus()
 }
- 
+commit
 //? DOMContentLoaded (metin v.b içerikler yüklenince tetiklenir. Resim, link gibi işçeriklerin yüklenmesini beklemez.)
 
 // document.addEventListener("DOMContentLoaded", (e)=>{
