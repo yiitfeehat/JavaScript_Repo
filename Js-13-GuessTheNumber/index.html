@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/2154/2154073.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <button class="btn again">RETRY</button>
+        <p class="between">1-20</p>
+        <h1><img src="https://em-content.zobj.net/source/microsoft-teams/363/rocket_1f680.png" alt="" class="image">
+            GUESS THE NUMBER <img src="https://em-content.zobj.net/source/microsoft-teams/363/rocket_1f680.png" alt=""
+                class="image"></h1>
+        <div class="number"><img class="comet" src="./img/comet_2604-fe0f.png" alt=""></div>
+        <div class="numberReset"><img class="cometReset" src="./img/comet_2604-fe0f.png" alt=""></div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess">
+            <button class="btn check">Check</button>
+        </section>
+        <section class="right">
+            <p class="msg">Entry a number</p>
+            <div class="score">
+
+                <div id="lives">
+                    <span class="heart" id="heart1"><img src="./img/red-heart_2764-fe0f.png" class="heart" alt="">
+                    </span>
+                    <span class="heart" id="heart2"><img src="./img/red-heart_2764-fe0f.png" class="heart" alt="">
+                    </span>
+                    <span class="heart" id="heart3"><img src="./img/red-heart_2764-fe0f.png" class="heart" alt="">
+                    </span>
+                    <span class="heart" id="heart4"><img src="./img/red-heart_2764-fe0f.png" class="heart" alt="">
+                    </span>
+                    <span class="heart" id="heart5"><img src="./img/red-heart_2764-fe0f.png" class="heart" alt="">
+                    </span>
+
+                </div>
+
+
+                <p>🏆: <span class="topScore">0</span></p>
+
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
