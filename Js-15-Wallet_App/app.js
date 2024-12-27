@@ -94,9 +94,9 @@ function hesaplaGoster() {
     harcamaGoster.textContent = harcamaToplami
     kalanGoster.textContent = gelir - harcamaToplami
 
-    if (grafik){
+    if (grafik) {
         grafik.destroy()
-       }
+    }
 
     grafik = new Chart(ctx, {
         type: 'doughnut',
@@ -112,16 +112,16 @@ function hesaplaGoster() {
 hesaplaGoster()
 
 //! --------------------------------- TEMİZLE -------------------------------- */
-const temizle=document.querySelector("#temizle")
+const temizle = document.querySelector("#temizle")
 
-temizle.addEventListener("click",()=>{
-    if (grafik){
+temizle.addEventListener("click", () => {
+    if (grafik) {
         grafik.destroy()
-       }
-    gelirInput.value=""
-    harcamaListesi=[]
-    gelirim=0
-    harcamaTablosu.innerHTML=""
+    }
+    gelirInput.value = ""
+    harcamaListesi = []
+    gelirim = 0
+    harcamaTablosu.innerHTML = ""
     hesaplaGoster()
     localStorage.removeItem("ödeme")
     localStorage.removeItem("gelirim")
