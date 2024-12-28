@@ -82,6 +82,7 @@ function harcamalariTablodaGoster({ tarih, kimlik, iban, odeme, islemID }) {
         }
     })
 }
+
 // //! ------------------- Hesaplama Tablosunun Oluşturulması ------------------- */
 const harcamaGoster = document.querySelector("#harcamaGoster")
 const kalanGoster = document.querySelector("#kalanGoster")
