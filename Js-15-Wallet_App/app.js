@@ -24,12 +24,14 @@ ekleFormu.addEventListener("submit", (e) => {
 })
 
 //! -------------------------- Harca Formu İşlemleri ------------------------- */
+
 const tarih = document.querySelector("#tarih");
 const kimlik = document.querySelector("#kimlik");
 const iban = document.querySelector("#iban");
 const harcamaAlani = document.querySelector("#harcamaAlani");
 const harcamaFormu = document.querySelector("#harcama-formu");
 const harcamaTablosu = document.querySelector("#harcamaTablosu");
+
 /* -------------------------------------------------------------------------- */
 // localstoragedan verilen parse edilerek çekilmesi. Bu işlem localstoragedan gelen veri string olduğu için yapılmaktadır
 let harcamaListesi = JSON.parse(localStorage.getItem("ödeme",)) || [];
