@@ -4,7 +4,6 @@
 
 // localStorage için 4 tane method var. getItem, setItem,removeItem,clear
 
-
 //! -------------------------- Ekle Formu işlemleri -------------------------- */
 
 const gelirInput = document.querySelector("#gelirInput")
