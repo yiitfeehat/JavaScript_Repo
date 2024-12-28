@@ -13,7 +13,7 @@ const gelirGoster = document.querySelector("#gelirGoster");
 let gelirler = JSON.parse(localStorage.getItem("gelirim")) || 0;
 console.log(gelirler);
 
-
+/* -------------------------------------------------------------------------- */
 
 ekleFormu.addEventListener("submit", (e) => {
     e.preventDefault();
