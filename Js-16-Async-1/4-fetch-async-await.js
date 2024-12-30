@@ -25,7 +25,7 @@
 //! JavaScript finally anahtar kelimesi hata oluşmasını veya oluşmaması durumunda (her durumda anyway işte)
 //! çalışacak kodları yazdırmak için kullanılır.
 
-   
+
 const defaultImage =
     "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/220px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg";
 
