@@ -4,6 +4,7 @@
 
 //? Async-Await ECMAScript 2017 ile javascript diline eklenmiştir.
 //? Aslında promise yapısının syntax olarak basitleştirilmiş halidir.
+
 //! Bu bağlamda syntatic sugar benzetmesi yapılabilir.
 
 //* Bir fonksiyonu async hale getirmek için fonskiyon keywordunun onune async keyword'u eklenir.
