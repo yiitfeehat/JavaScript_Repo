@@ -10,7 +10,7 @@ sum = 0;
 
 for (let i = 0; i<maaslar.length; i++){
     sum+= maaslar[i]
-}
+} 
 console.log(`toplam maaslar ${sum}`);
 
 /* -------------------------------------------------------------------------- */
