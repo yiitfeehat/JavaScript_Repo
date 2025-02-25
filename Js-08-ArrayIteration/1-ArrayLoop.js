@@ -7,7 +7,7 @@ console.log("**** LOOPS IN ARRAYS ***");
 
 const maaslar = [50000, 80000, 40000, 30000];
 sum = 0;
-  
+    
 for (let i = 0; i<maaslar.length; i++){
     sum+= maaslar[i]
 } 
