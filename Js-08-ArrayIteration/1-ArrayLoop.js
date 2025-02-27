@@ -12,7 +12,7 @@ for (let i = 0; i < maaslar.length; i++) {
     sum += maaslar[i]
 }
 console.log(`toplam maaslar ${sum}`);
- cc
+
 /* -------------------------------------------------------------------------- */
 //? ÖRNEK
 //? notlar dizisindeki notların 50'den kucuk olanları ve buyuk olanları 2 ayri diziye kaydediniz.
