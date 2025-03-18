@@ -15,7 +15,7 @@ console.log("*****ARRAYS*****");
 
 const numbers = [];
 //! ARRAYLER İÇİNDE BİR ÇOK TÜR DEĞİŞKEN OLABİLİR
-
+  
 const school = "Cumhuriyet ilkokulu";
 const names = ["Ahmet", "Berk", 34, true, null, undefined, [1, 2], NaN, school];
 
