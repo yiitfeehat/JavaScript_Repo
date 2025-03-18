@@ -10,7 +10,7 @@ console.log("*****ARRAYS*****");
 //*-------------------------
 //! 1- Square bracker (Array Literal) Yöntemi ile dizi tanımalam
 //! En çok tercih edilen yöntem.
-
+ 
 //* Boş array.
 
 const numbers = [];
