@@ -11,7 +11,7 @@
 //! every
 //! some
 //! find
-   
+
 //* =======================================
 //*           FOREACH METHOD
 //* =======================================
@@ -99,10 +99,10 @@ let toplamSicaklik = 0;
 let sicakGunler = 0;
 let farkToplami = 0;
 
-let sonuc= sicakliklar.forEach((sicaklik,index,arr) => {
+let sonuc = sicakliklar.forEach((sicaklik, index, arr) => {
     toplamSicaklik += sicaklik;
     sicaklik > 22 ? sicakGunler++ : null;
-    if (index < arr.length -1) {
+    if (index < arr.length - 1) {
         const fark = Math.abs(arr[index + 1] - sicaklik);
         console.log(fark);
         farkToplami += fark;
